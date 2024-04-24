@@ -6,8 +6,8 @@
 
 #displyTime{
     font-family: 'Orbitron';
-    font-size: xx-large;
-    margin-bottom: 1.5rem;
+    font-size: 3rem;
+    margin-bottom: 2.5rem;
 }
 
 body{
@@ -25,6 +25,7 @@ body{
     align-items: center;
     justify-content: center;
     flex-direction: column;
+
 }
 
 button{
