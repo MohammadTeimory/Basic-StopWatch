@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#displyTime{
+    font-family: 'Orbitron';
+    font-size: xx-large;
+    margin-bottom: 1.5rem;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #84a98c;
+}
+
+
+.stopwatch{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+button{
+    cursor: pointer;
+    padding: 6px 20px;
+    border:0px solid transparent;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+button:hover{
+   color: rgba(255, 255, 255, 0.4);
+}
